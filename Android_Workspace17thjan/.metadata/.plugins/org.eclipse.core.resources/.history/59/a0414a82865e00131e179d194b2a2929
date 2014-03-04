@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <Button
+        android:id="@+id/mercury_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Mercury" />
+    <Button
+        android:id="@+id/venus_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Venus" />
+    <Button
+        android:id="@+id/earth_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Earth" />
+    <Button
+        android:id="@+id/mars_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Mars" />
+    <Button
+        android:id="@+id/jupiter_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Jupiter" />
+    <Button
+        android:id="@+id/saturn_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Saturn" />
+    <Button
+        android:id="@+id/uranus_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Uranus" />
+    <Button
+        android:id="@+id/neptune_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Neptune" />
+
+</LinearLayout>

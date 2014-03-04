@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <Button
+        android:id="@+id/mercury_btn"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:drawableRight="@drawable/mercuryicon"
+        android:text="@string/mercury" />
+        								  
+    <Button
+        android:id="@+id/venus_btn"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:drawableLeft="@drawable/venusicon"
+        android:text="@string/venus" />
+ 
+    <Button
+        android:id="@+id/earth_btn"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:drawableLeft="@drawable/earthicon"
+        android:text="@string/earth" />
+
+    <Button
+        android:id="@+id/mars_btn"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:drawableLeft="@drawable/marsicon"
+        android:text="@string/mars" />
+
+    <Button
+        android:id="@+id/jupiter_btn"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:drawableLeft="@drawable/jupitericon"
+        android:text="@string/jupiter" />
+ 
+    <Button
+        android:id="@+id/saturn_btn"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:drawableLeft="@drawable/saturnicon"
+        android:text="@string/saturn" />
+
+    <Button
+        android:id="@+id/uranus_btn"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:drawableLeft="@drawable/uranusicon"
+        android:text="@string/uranus" />
+
+    <Button
+        android:id="@+id/neptune_btn"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:drawableLeft="@drawable/neptuneicon"
+        android:text="@string/neptune" />
+
+</LinearLayout>

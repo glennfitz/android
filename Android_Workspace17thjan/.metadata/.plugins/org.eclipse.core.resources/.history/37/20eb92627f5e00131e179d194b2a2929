@@ -1,0 +1,48 @@
+package com.glenn.appgf;
+
+import android.app.Activity;
+import android.os.Bundle;
+import android.view.View;
+import android.widget.Button;
+import android.widget.EditText;
+
+public class Email extends Activity implements View.OnClickListener{
+
+	EditText personsEmail, intro, personsName, things, action,outro;
+	
+	String emailAddress, beginning, name, anotheraction,act, out;
+	Button sendEmail;
+	
+	
+	
+	
+	
+	@Override
+	protected void onCreate(Bundle savedInstanceState) {
+		
+		super.onCreate(savedInstanceState);
+		setContentView(R.layout.email);
+		initializevars();
+		sendEmail.setOnClickListener(this);
+	}
+
+	private void initializevars() {
+		personsEmail = (EditText) findByView(R.id.etEmails);
+		
+	}
+
+
+
+
+
+	@Override
+	public void onClick(View v) {
+		
+		
+	}
+	
+	
+	
+	
+
+}

@@ -1,0 +1,1 @@
+INDEX VERSION 1.126+C:\Documents and Settings\Onetouch\My Documents\Android_Workspace\.metadata\.plugins\org.eclipse.jdt.core

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name"></string>
+    <string name="action_settings">Settings</string>
+    <string name="mercury">Mercury</string>
+    <string name="venus">Venus</string>
+    <string name="earth">Earth</string>
+    <string name="mars">Mars</string>
+    <string name="jupiter">Jupiter</string>
+    <string name="saturn">Saturn</string>
+    <string name="uranus">Uranus</string>
+    <string name="neptune">Neptune</string>
+    <string name="light">Light</string>
+    <string name="title_activity_learn_about_menu">LearnAboutMenu</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_sound">Sound</string>
+    <string name="title_activity_light">Light</string>
+    <string name="title_activity_heat">Heat</string>
+    <string name="title_activity_forces">Forces</string>
+    <string name="title_activity_electricity">Electricity</string>
+    <string name="title_activity_magnetism">Magnetism</string>
+    <string name="title_activity_question_handler">QuestionHandler</string>
+    <string name="next">Next</string>
+
+</resources>

@@ -1,0 +1,51 @@
+package com.glenn.appgf;
+
+import android.app.Activity;
+import android.os.Bundle;
+import android.view.Menu;
+import android.view.View;
+import android.widget.Button;
+import android.widget.TextView;
+
+public class StartingPoint extends Activity {
+	int answer;
+	Button add;
+	Button subtract;
+	TextView display;
+
+	@Override
+	protected void onCreate(Bundle savedInstanceState) {
+		super.onCreate(savedInstanceState);
+		setContentView(R.layout.activity_starting_point);
+		answer=0;
+		add = (Button) findViewById(R.id.addButton);
+		subtract =(Button) findViewById(R.id.subtractButton);
+		display = (TextView) findViewById(R.id.tvDisplay);
+		
+		add.setOnClickListener(new View.OnClickListener(){
+			@Override
+			public void onClick(View v) {
+				answer+=1;
+				display.setText("The total is "+ answer);
+			}
+		});
+
+		subtract.setOnClickListener(new View.OnClickListener() {
+
+			@Override
+			public void onClick(View v) {
+				answer-=1;
+				display.setText("The total is "+ answer);
+			}
+		});
+
+	}
+
+	@Override
+	public boolean onCreateOptionsMenu(Menu menu) {
+		// Inflate the menu; this adds items to the action bar if it is present.
+		getMenuInflater().inflate(R.menu.solar_system, menu);
+		return true;
+	}
+
+}

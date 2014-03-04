@@ -1,0 +1,41 @@
+package com.glenn.appgf;
+
+import android.content.Intent;
+import android.os.Bundle;
+import android.view.View;
+import android.widget.ArrayAdapter;
+import android.widget.ListView;
+import android.app.ListActivity;
+import android.content.Intent;
+import android.os.Bundle;
+import android.view.View;
+import android.widget.ArrayAdapter;
+import android.widget.ListView;
+
+
+public class Planets_Menu {
+
+String menuListP [] = {"Mars","Earth","Saturn","Venus",};
+	
+	
+	protected void onCreate(Bundle savedInstanceState) {
+		
+		
+		super.onCreate(savedInstanceState);				
+		setListAdapter(new ArrayAdapter<String>(Planets_Menu.this, android.R.layout.simple_list_item_1, menuListP));
+	}
+
+	protected void onListItemClick(ListView l, View v, int position, long id){		
+		
+		super.onListItemClick(l, v, position, id);
+		String pos = menuList[position];
+		try{
+		Class myClass = Class.forName("com.glenn.appgf." + pos);
+		Intent myIntent = new Intent(Planets_Menu.this, myClass);
+		startActivity(myIntent);
+		}catch(ClassNotFoundException e){
+			e.printStackTrace();			
+		}
+	}
+		
+}

@@ -1,0 +1,58 @@
+package com.glenn.appgf;
+
+import android.app.Activity;
+import android.os.Bundle;
+import android.view.Menu;
+import android.widget.Button;
+import android.widget.EditText;
+import android.widget.RadioButton;
+import android.widget.TextView;
+import android.widget.ToggleButton;
+
+public class Question extends Activity {
+
+	TextView theQuestion;
+	RadioButton rbtn1;
+	RadioButton rbtn2;
+	RadioButton rbtn3;	
+	Button nextButton;
+	
+	
+	private void wigit_Items() {
+		theQuestion = (TextView)findViewById(R.id.earth_btn);
+		rbtn1 = (RadioButton)findViewById(R.id.tbPassword);
+		rbtn2 = (RadioButton)findViewById(R.id.etCommands);
+		rbtn3 = (RadioButton)findViewById(R.id.tvResults);
+		nextButton = (Button)findViewById(R.id.button1);
+	}
+	
+	
+	
+	
+	
+	
+	
+	@Override
+	protected void onCreate(Bundle savedInstanceState) {
+		super.onCreate(savedInstanceState);
+		setContentView(R.layout.question);
+	}
+
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	@Override
+	public boolean onCreateOptionsMenu(Menu menu) {
+		// Inflate the menu; this adds items to the action bar if it is present.
+		getMenuInflater().inflate(R.menu.question, menu);
+		return true;
+	}
+
+}
